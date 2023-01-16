@@ -1,9 +1,9 @@
-# Laravel WHM services
+# Laravel WHM Services
 
-Laravel WHM services let you handle your services from the command line. You can for example restart PHP-FPM after deploying your app.
+Laravel WHM Services let you handle your services from the command line. You can for example restart PHP-FPM after deploying your app.
 
 <p align="center">
-    <img src="docs/banner.jpg" alt="WHM services logo" width="1000">
+    <img src="docs/banner.jpg" alt="WHM Services logo" width="1000">
 </p>
 
 ## Installation
@@ -24,9 +24,9 @@ php artisan whm-services:restart apache_php_fpm
 
 You can change the default configuration declaring the corresponding variable in you environment file.
 
-- WHM_SERVICES_HOST : The domain where the WHM API is accessible. The default value is your own domain (APP_URL).
-- WHM_SERVICES_PORT : We use the WHM default port which is 2087.
-- WHM_SERVICES_API_TOKEN : You have to generate this token via WHM > Development > Manage API Tokens. You'll need the following privileges
+- `WHM_SERVICES_HOST` : The domain where the WHM API is accessible. The default value is your own domain (APP_URL).
+- `WHM_SERVICES_PORT` : We use the WHM default port which is 2087.
+- `WHM_SERVICES_API_TOKEN` : You have to generate this token via WHM > Development > Manage API Tokens. You'll need the following privileges
     - Restart command : "Restart services"
 
 ## License
